@@ -1,0 +1,32 @@
+.d-flex {
+    display:flex;
+    align-items: center;
+}
+
+
+.flex-center {
+    justify-content: center;
+}
+
+
+.flex-left {
+    justify-content: left;
+}
+
+
+.flex-right {
+    justify-content: right;
+}
+
+
+
+.d-flex-center {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bold {
+    font-weight: bold;
+}

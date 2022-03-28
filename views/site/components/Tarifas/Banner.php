@@ -1,0 +1,6 @@
+      <div class="row banner-all" id="banner-tarifas">
+        <div class="center-align" >
+           <li class="blue-text center-align" id="calltoaction-quemsomos"><span style="font-weight: bold;">Tarifas </span> </li>
+        </div>
+
+      </div>

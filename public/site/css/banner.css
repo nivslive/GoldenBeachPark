@@ -1,0 +1,147 @@
+#banner{
+
+  width: 100%;
+  height: 500px;
+  background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(160,239,255,1) 100%);
+
+}
+
+
+@media (max-width:690px) {
+  #banner{
+    height: 550px;  }
+}
+
+.banner-all {
+	 display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 100%;
+  height: 40vh;
+
+  animation: animationbanner 30s ease-in-out infinite;
+  /**background-size: 100%;**/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+@media(max-width:824px){
+  
+.banner-all {
+  display: flex;
+   align-items: center;
+   justify-content: center;
+ width: 100%;
+ height: 40vh;}
+}
+
+
+#banner-quemsomos{
+  background-size: cover;
+  
+}
+
+@media(max-width:824px){
+
+}
+
+#banner-acomodacoes{
+  background-image:url('../img/acomodacoes/banner.jpg');
+    background-size: 200rem;
+}
+#banner-ceara{
+  background-image:url('../img/ceara/banner.jpg');
+  background-size: 150rem;
+}
+#banner-estrutura{
+  background-image:url('../img/estrutura/banner.jpg');
+  background-size: 200rem;
+}
+#banner-fortaleza{
+  background-image:url('../img/fortaleza/banner.jpg');
+  background-size: 150rem;
+}
+#banner-politicas{
+  background-image:url('../img/politicas/banner.jpg');
+  background-size: 200rem;
+}
+#banner-reservas{
+  background-image:url('../img/reservas/banner.jpg');
+  background-size: 200rem;
+}
+#banner-servicos{
+  background-image:url('../img/servicos/banner.jpg');
+  background-size: 200rem;
+}
+#banner-tarifas{
+  background-image:url('../img/tarifas/banner.png');
+  background-size: 180rem;
+}
+
+
+
+@keyframes animationbanner {
+	0%, 100% {background-position: bottom;}
+	50% {background-position: center;}
+}
+
+@keyframes animationcalltoaction {
+  0%{opacity:0;filter: blur(1.5rem);}
+  100% {opacity: 1;filter: blur(0);}
+}
+
+#calltoaction-quemsomos  {
+	color: white !important; 
+	text-shadow: #0643c2 1px 1px 20px;
+  animation: animationcalltoaction 1s ease-in-out;
+  padding-top: 10px;
+  font-size: 3rem;
+  font-family: titulo;
+  list-style: none;
+}
+
+@media(max-width: 500px){
+  #calltoaction-quemsomos  {font-size: 14vw} 
+}
+
+
+
+
+#banner-all > li > span {
+height:200px;
+
+}
+
+
+#calltoaction  {
+  padding-top: 90px;
+  font-size: 5em;
+  list-style: none;
+}
+
+
+@media (max-width: 529px)
+{
+  #calltoaction  {
+
+    font-size: 3em;
+
+  }
+}
+
+
+
+
+#calltoaction2{
+  padding: 0px 20px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  list-style: none;
+}
+#calltoaction3{
+  margin-top: 38px;
+}

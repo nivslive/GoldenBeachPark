@@ -1,0 +1,24 @@
+.title-text{
+
+    color:  var(--primary-color);
+    font-weight: bold;font-size: 3.5rem;
+}
+
+
+
+.text-banner{
+    font-weight: bold;
+}
+
+
+
+@media (max-width:  362px)
+
+{
+
+
+	.text-banner{
+	font-size: 2.5rem !important;
+	}
+}
+

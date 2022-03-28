@@ -1,0 +1,55 @@
+
+
+@media (max-width:  762px)
+
+{
+
+	#banner-quemsomos {
+		background-size: cover;
+	}
+
+
+
+
+}
+
+
+@media (max-width:  592px)
+
+{
+
+	#banner-quemsomos {
+		background-size: cover;
+	}
+
+
+
+
+}
+
+
+
+@media (max-width:  362px)
+
+{
+
+	#banner-quemsomos {
+		background-size: cover;
+		font-size: 50px !important; 
+	}
+
+
+
+
+	.text-banner{
+	font-size: 1rem !important;
+	}
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,77 @@
+.image-fundo-acomodacoes{
+
+    background-color: red;
+    border-radius: 40px 10px 10px 10px;
+
+}
+
+
+.acomodacoes-form {
+    display:flex;
+    align-items:center;
+    height: 60vh;
+}
+
+
+
+
+
+.form-acomodacoes-section {
+    border-radius: 0px 40px 0px 0px;
+    background: rgb(255,115,0);
+    background: linear-gradient(0deg, rgba(255,115,0,1) 0%, rgba(255,175,0,1) 100%);
+}
+
+.img-acomodacoes-section {
+    border-radius: 40px 0px 0px 0px;
+    animation: imgacomodacoessection 90s infinite;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.acomodacoes-apartamentos {
+    background-image: url('../../../img/acomodacoes/1.jpg');
+}
+.acomodacoes-saladecafe {
+    background-image: url('../../../img/acomodacoes/2.jpg');
+}
+
+@keyframes imgacomodacoessection {
+    0%, 100% {background-position: center center;}
+	50% {background-position: center bottom;}
+}
+
+.center-acomodacoes {
+
+}
+
+
+.acomodacoes-margin {
+    margin:20px;
+}
+
+
+.conteiner-info-acomodacoes {
+    display:flex;
+    align-items:center;
+}
+.conteiner-info-acomodacoes:hover {
+    background-color: rgba(0, 68, 255, 0.596);
+    border-right: 10px solid white;
+}
+
+.div-img-acomodacoes {
+    width:100%;height:28rem;
+            overflow:hidden;    
+            border-radius: 0px 50px 50px 0px;
+}
+.img-acomodacoes {
+
+    width:100px;
+    height: 100px;
+}
+
+ .section-acomodacoes {
+     border-radius: 40px;
+
+   }

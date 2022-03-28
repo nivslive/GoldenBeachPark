@@ -1,0 +1,1 @@
+Esse backup é voltado para a funcionalidade de Criar Itens Acomodação direto no Criar acomodação. ele tem alguns erros. e será guardado aqui para futura nova tentativa de implementação.

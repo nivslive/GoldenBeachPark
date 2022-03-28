@@ -1,0 +1,7 @@
+.footer-color-admin {
+    background: rgb(0,78,200);
+background: -moz-linear-gradient(86deg, rgb(0, 98, 255) 3%, rgb(0, 132, 255) 100%);
+background: -webkit-linear-gradient(86deg, rgb(0, 98, 255) 3%, rgb(0, 55, 158) 100%);
+background: linear-gradient(86deg, rgb(0, 98, 255) 3%, rgb(0, 55, 158) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#004ec8",endColorstr="#00e0ff",GradientType=1);
+}

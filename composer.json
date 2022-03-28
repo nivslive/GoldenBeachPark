@@ -1,0 +1,26 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Template\\": "src/"
+        }
+    },
+    "require": {
+        "doctrine/orm": "^2.6",
+        "php-di/php-di": "^6.0",
+        "coffeecode/router": "1.0.*",
+        "league/plates": "3.*",
+        "coffeecode/uploader": "1.0.*",
+        "coffeecode/paginator": "^1.0",
+        "doctrine/migrations": "^3.4",
+        "symfony/cache": "^5.4",
+        "doctrine/annotations": "^1.13"
+    },
+    "scripts": {
+
+        "migrate": "vendor/bin/doctrine.bat orm:schema-tool:update --force",
+        "cache-query": "vendor/bin/doctrine.bat orm:clear-cache:query",
+        "cache-metadata": "vendor/bin/doctrine.bat orm:clear-cache:metadata",
+        "cache-result": "vendor/bin/doctrine.bat orm:clear-cache:result",
+        "cache": ["@cache-query", "@cache-metadata", "@cache-result"]
+    }
+}

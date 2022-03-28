@@ -1,0 +1,9 @@
+.menu-color-admin {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(186deg, rgba(255,255,255,1) 35%, rgba(180,246,255,1) 100%);
+    background: -webkit-linear-gradient(186deg, rgba(255,255,255,1) 35%, rgba(180,246,255,1) 100%);
+    background: linear-gradient(186deg, rgba(255,255,255,1) 35%, rgba(180,246,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#b4f6ff",GradientType=1);
+
+}
+

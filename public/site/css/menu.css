@@ -1,0 +1,30 @@
+.image-logo-menu {
+    position: absolute;
+    z-index: 9999;
+    width:13rem;
+    transform:translate(0%, -10%)
+}
+
+
+
+@media (min-width:0px)
+{
+.image-logo-menu {
+    left: -200px;
+    right: 20px;
+
+}
+
+
+}
+
+@media (min-width:1356px)
+{
+.image-logo-menu {
+    left: 0px;
+    right: 50px;
+
+}
+
+
+}

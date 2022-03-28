@@ -1,0 +1,23 @@
+
+.menu-section ul {
+	list-style-type: square;
+}
+
+.menu-section ul li:hover {
+	background-color:  peachpuff;
+	border-bottom:  19px solid lightcyan;
+}
+.menu-section  ul li {
+	font-size:  2rem;
+border-bottom:  2px solid white;
+padding:  5px;
+	cursor:  pointer;
+
+
+}
+
+
+.image-banner-section {
+	height: 45vh; object-fit:cover;
+	background-image:url('../../../img/parallax_bg01.jpg');
+}

@@ -1,0 +1,11 @@
+* {
+	list-style: none;
+	transition:  .5s;
+}
+
+
+select {
+	display: block !important;
+}
+
+
