@@ -16,8 +16,8 @@ class EntityManagerCreator
             "driver"   => "pdo_mysql",
             "user"     => "root",
             "password" => "",
-            "dbname"   => "mazukimcom_beachpark_db",
-	    "port" => "localhost:3306"
+            "dbname"   => "seila",
+	    "port" => "localhost"
         ];
 
         $config = Setup::createAnnotationMetadataConfiguration(
